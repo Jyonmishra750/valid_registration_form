@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    background-color: lightblue;
+}
+h1 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans;
+}
+.container {
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #000;
+    box-shadow: 2px 6px 16px;
+    height: 70vh;
+    width: 60%;
+    align-items: center;
+    background-color: lightsalmon;
+    border-radius: 20px;
+}
+#t1,#t2,#t3,#t4,#t5 {
+    padding-left: 10px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    box-shadow: 1px 4px 16px rgba(0, 0, 0, 0.4);
+}
+.table {
+    width: 100%;
+    height: 40vh;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+.button {
+    align-items: center;
+    text-align: center;
+}
+#btn1 {
+    margin-top: 20px;
+    width: 120px;
+    height: 34px;
+    border: 1px solid rgb(30, 97, 30);
+    box-shadow: greenyellow;
+    outline: none;
+    background: red;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 15px;
+}
+#btn2 {
+    margin-top: 20px;
+    width: 120px;
+    height: 34px;
+    border: 1px solid rgb(30, 97, 30);
+    box-shadow: greenyellow;
+    outline: none;
+    background: red;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 15px;
+}
+/* #para1,#para2,#para3,#para4,#para5 {
+    padding-top: 2px;
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 20px;
+} */
